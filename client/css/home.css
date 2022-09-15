@@ -1,0 +1,30 @@
+.search-area{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 22px;
+}
+
+.message-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-box {
+  height: 25px;
+  width: 200px;
+}
+
+.empty-search {
+  width: 25px;
+}
+
+.search-button {
+  height: 30px;
+  width: 125px;
+  background-color: rgb(49, 102, 49);
+  color: rgb(230, 230, 230);
+  border-radius: 8px;
+  font-size: 15px;
+}

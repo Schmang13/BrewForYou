@@ -1,0 +1,87 @@
+.brewery-tabs {
+  display: flex;
+  height: 150px;
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, .1);
+  background-color: rgb(255, 255, 255);
+}
+
+.brew-name {
+  width: 300px;
+}
+
+h2 {
+  margin-left: 25px;
+  color: rgb(79, 79, 79);
+  justify-self: left;
+}
+
+h3 {
+  color: rgb(79, 79, 79);
+  font-size: 18px;
+}
+
+.brewery-address {
+  color: rgb(18, 78, 18);
+  font-size: 16px;
+}
+
+.brewery-buttons-div {
+  margin-right: 30px;
+}
+
+.brewery-delete {
+  background-color: rgb(255, 255, 255);
+  color: rgb(18, 78, 18);
+  border-radius: 4px;
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(18, 78, 18);
+  font-size: 14px;
+  padding: 5px;
+  cursor: pointer;
+  margin: 25px;
+}
+
+.brewery-info {
+  justify-self: center;
+  width: 375px;
+}
+
+.brewery-buttons-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.brewery-buttons {
+  background-color: rgb(255, 255, 255);
+  color: rgb(18, 78, 18);
+  border-radius: 4px;
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(18, 78, 18);
+  font-size: 14px;
+  width: 90px;
+  padding: 5px;
+  cursor: pointer;
+  margin: 3px;
+  transition: .3s;
+}
+
+.brewery-buttons:hover {
+  background-color: rgb(18, 78, 18);
+  color: rgb(255, 255, 255);
+
+}
+
+.brew-url {
+  font-size: 15px;
+}

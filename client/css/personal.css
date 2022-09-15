@@ -1,0 +1,28 @@
+body{
+  overflow: scroll;
+  background-color: rgb(237, 237, 237)
+}
+
+.personal-controls{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 22px;
+}
+
+.personal-button{
+  background-color: rgb(49, 102, 49);
+  color: rgb(230, 230, 230);
+  border-radius: 8px;
+  font-size: 18px;
+  width: 175px;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+  margin: 25px;
+}
+
+.empty-space {
+  flex-grow: 2;
+  flex-shrink: 2;
+}
