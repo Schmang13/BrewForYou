@@ -15,6 +15,9 @@ function Home() {
     const breweryNumber = [];
     const breweryUrl = [];
 
+//These fetches should be moved to the backend, not frontend
+
+
     function handleSubmit(event) {
       event.preventDefault();
       let cityName = event.target.city.value;

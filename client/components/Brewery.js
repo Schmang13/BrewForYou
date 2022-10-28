@@ -1,5 +1,7 @@
 import React from 'react';
 
+//These buttons and fetches should be moved to the container page and queries should happen on the backend, not frontend
+
 const Brewery = props => {
   console.log(props);
   const saveFavorite = () => {

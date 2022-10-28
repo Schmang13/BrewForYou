@@ -12,7 +12,7 @@ mongoose.connect(MONGO_URI, {
 
 const Schema = mongoose.Schema;
 
-const favoriteSchema = new Schema ({
+const favoriteSchema = new Schema ({  
   name: {type: String, unique: true},
   address: String,
   postCode: String,

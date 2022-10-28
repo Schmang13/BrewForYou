@@ -4,6 +4,7 @@ const SavedBrewery = props => {
 
   const [breweryList, setBreweryList] = useState([]);
 
+  //These buttons and fetches should be moved to the container page and queries should happen on the backend, not frontend
 
   const removeBrewery = () => {
     console.log(`Deleted from ${props.page} page.`);
